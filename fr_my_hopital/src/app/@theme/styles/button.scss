@@ -1,0 +1,31 @@
+.p-button {
+    background-color: #960032 !important;
+    border-color: #960032 !important;
+  }
+.zen-btn {
+    min-height: 40px!important;
+    width: auto!important;
+    padding: 0 12px!important;
+    font-size: 13px!important;
+    border-radius: 25px;
+    .p-button-icon {
+      margin-left: 8px;
+      font-size: .8rem;
+    }
+}
+
+.zen-primary-btn:enabled:hover {
+    background-color: transparent!important;
+    color: #960032!important;
+    transform: all 1s;
+}
+
+.zen-secondary-btn {
+    background-color: #e4e6eb !important;
+    border-color: #e4e6eb !important;
+    color: #050505!important;
+    &:hover {
+      background-color: transparent!important;
+      transform: all 1s;
+    }
+}

@@ -1,0 +1,172 @@
+.p-inputgroup-addon:last-child,
+.p-inputgroup button:last-child,
+.p-inputgroup input:last-child {
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+}
+.zen-form-content {
+  .mat-horizontal-content-container {
+    overflow: visible!important;
+  }
+}
+.input-full-width {
+  flex: 1 1 50% !important;
+  position: relative;
+  margin-bottom: 1.5rem;
+  .zen-float-label {
+    position: relative;
+    width: 100%;
+    .zen-input-field {
+      display: block;
+      font-size: 12px;
+      opacity: 1;
+      width: 100%;
+      height: 42px;
+      box-sizing: boder-box;
+      background: #fff;
+      appearance: none;
+      padding: 0 32px 0 20px;
+      padding-left: 2rem;
+      border-radius: 0;
+      transition-delay: 0ms;
+      will-change: color;
+      transition: 200ms color linear;
+      border: 1px solid #999999;
+      border-radius: 4px;
+      &:invalid {
+        color: red;
+        transition: 200ms color linear 100ms;
+      }
+      &:valid + .zen-input-label,
+      &:focus:valid + .zen-input-label {
+        transform: scale(1) translate(0, -100%);
+        transition: 200ms transform ease-out;
+        color: #888;
+      }
+    }
+    .zen-textarea-field {
+      display: block;
+      font-size: 12px;
+      opacity: 1;
+      width: 100%;
+      height: 42px;
+      box-sizing: boder-box;
+      background: #fff;
+      appearance: none;
+      padding: 0 32px 0 20px;
+      padding-left: 2rem;
+      border-radius: 0;
+      transition-delay: 0ms;
+      will-change: color;
+      transition: 200ms color linear;
+      border: 1px solid #999999;
+      border-radius: 4px;
+      min-height: 100px!important;
+      padding-left: 32px!important;
+      &:focus + .zen-input-label , &:not(:placeholder-shown) + .zen-input-label{
+        transform: scale(1) translate(0, -100%);
+        transition: 200ms transform ease-out;
+        color: #888;
+      }
+
+    }
+    .zen-input-label {
+      position: absolute;
+      left: 30px;
+      top: 10px;
+      color: #888;
+      padding: 0 5px;
+      pointer-events: none;
+      font-size: 13px;
+      font-weight: normal;
+      transform-origin: 0 0;
+      transition: 200ms transform ease-out 200ms;
+      will-change: transform;
+      background-color: #fff;
+      border-radius: 8px;
+    }
+    .pi {
+      font-size: 0.9rem;
+      position: absolute;
+      top: 13px;
+      left: 10px;
+    }
+    .zen-alert-error {
+      color: red;
+      font-style: italic;
+      padding-left: 8px;
+      transition: all 1s;
+    }
+  }
+  .zen-label-select {
+    &:after {
+      content: "\e902";
+      font-family: "primeicons";
+      position: absolute;
+      top: 10px;
+      right: 8px;
+      color: #888;
+    }
+  }
+}
+
+.input-first-child {
+  margin-right: 12px !important;
+}
+
+.mat-form-field-appearance-outline .mat-form-field-infix {
+  padding: 0em 0 1em 0 !important;
+}
+
+.mat-form-field-prefix {
+  top: 10px !important;
+  right: 4px !important;
+  color: #960032;
+}
+
+.text-area-container {
+  .mat-form-field-prefix {
+    top: -10px !important;
+  }
+  /*.zen-input-label {
+    transform: scale(1) translate(0, 0)!important;
+    transition: 200ms transform ease-out 200ms;
+    will-change: transform;
+  }*/
+
+}
+
+.mat-stepper-horizontal-line {
+  margin-top: -20px !important;
+}
+
+.mat-horizontal-stepper-header {
+  height: 50px !important;
+  margin-bottom: 24px !important;
+}
+
+.nb-theme-default .cdk-overlay-container {
+  z-index: 11030 !important;
+}
+
+.p-inputgroup-addon {
+  background: #fff0 !important;
+  border: none !important;
+  position: absolute;
+  margin-top: 2px;
+}
+
+.custom-control-label::before,
+.custom-file-label,
+.custom-select {
+  height: 36px;
+  min-height: 36px !important;
+}
+
+.text-area-address {
+  margin-top: 24px !important;
+}
+
+.zen-select {
+  margin-bottom: 20px;
+}

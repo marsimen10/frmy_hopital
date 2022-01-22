@@ -1,0 +1,36 @@
+.tabpane-container {
+  .p-datatable .p-datatable-header {
+    background: #ffffff !important;
+    padding: 1rem 0 !important;
+    .filter-tabpane {
+      .p-input-icon-left {
+        min-width: 30%;
+      }
+      input {
+        min-width: 100%;
+        &:focus {
+          box-shadow: none!important;
+        }
+        &::placeholder {
+          color: #989898!important;
+        }
+      }
+      i {
+        //left: inherit !important;
+        color: #b9b9b9 !important;
+        //top: 16px;
+      }
+    }
+ } 
+}
+
+.p-panel {
+  .p-panel-header {
+    border: none!important;
+    background: #eaeaea!important;
+  }
+  .p-panel-content {
+    border: none!important;
+    padding-top: 2rem!important;
+  }
+}
